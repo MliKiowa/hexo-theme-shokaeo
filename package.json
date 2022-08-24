@@ -1,7 +1,7 @@
 {
   "name": "hexo-theme-shokaeo",
-  "version": "0.2.5",
-  "description": "hexo-theme-shokaeo", 
+  "version": "0.3.0",
+  "description": "shokaeo from shoka", 
   "license": "MIT",
   "main": "package.json",
   "scripts": {
