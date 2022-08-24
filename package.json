@@ -30,6 +30,6 @@
     "hexo-autoprefixer": "^2.0.0",
     "hexo-algoliasearch": "^1.0.0",
     "hexo-symbols-count-time": "^0.7.1",
-    "hexo-feed": "^0.0.1"
+    "hexo-feed": "^1.1.1"
   }
 }
