@@ -26,10 +26,10 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-generator-json-content": "^4.2.3",
-    "hexo-renderer-multi-markdown-it": ^0.0.1",
-    "hexo-autoprefixer": ^0.0.1",
-    "hexo-algoliasearch": ^0.0.1",
-    "hexo-symbols-count-time": ^0.0.1",
-    "hexo-feed": ^0.0.1"
+    "hexo-renderer-multi-markdown-it": "^0.0.1",
+    "hexo-autoprefixer": "^0.0.1",
+    "hexo-algoliasearch": "^0.0.1",
+    "hexo-symbols-count-time": "^0.0.1",
+    "hexo-feed": "^0.0.1"
   }
 }
