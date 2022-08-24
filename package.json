@@ -29,7 +29,7 @@
     "hexo-renderer-multi-markdown-it": "^0.0.1",
     "hexo-autoprefixer": "^0.0.1",
     "hexo-algoliasearch": "^0.0.1",
-    "hexo-symbols-count-time": "^0.0.1",
+    "hexo-symbols-count-time": "^0.7.1",
     "hexo-feed": "^0.0.1"
   }
 }
