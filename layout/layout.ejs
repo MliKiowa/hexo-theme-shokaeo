@@ -33,16 +33,7 @@
         </div>    
       </div>
       <div id="imgs" class="pjax">
-      {%- set covers = _cover(page, 6) %}
-      {%- if covers.length == 6 %}
-        <ul>
-          {%- for image in covers %}
-          <li class="item" data-background-image="{{ image }}"></li>
-          {%- endfor %}
-        </ul>
-      {%- else %}
-          <img src="{{ covers }}">
-      {%- endif %}
+      
       </div>
     </header>
     <div id="waves">
@@ -71,7 +62,7 @@
     <footer id="footer">
       <div class="inner">
         <div class="widgets">
-          {{ widgets.render() }}
+          
         </div>
        </div>
     </footer>
