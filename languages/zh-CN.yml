@@ -3,7 +3,9 @@ name: 简体中文
 favicon:
   show: （●´3｀●）やれやれだぜ
   hide: (´Д｀)大変だ！
-
+top_post:
+  icon: fas fa-award
+  text: 置顶
 title:
   archive: 归档
   category: 分类
