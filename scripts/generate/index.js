@@ -1,4 +1,5 @@
 'use strict';
+var pagination = require('hexo-pagination');
 hexo.extend.generator.register('index', function(locals) {
   let covers = [];
   let catlist = [];
