@@ -11,4 +11,10 @@ Language:
 
 ## 前言
 主题源自 [hexo-theme-shoka](https://github.com/amehime/hexo-theme-shoka)
-进行修改
+进行修改 使用ejs模板重写
+## 使用
+暂无
+## 文档
+暂无
+## 社区
+暂无
