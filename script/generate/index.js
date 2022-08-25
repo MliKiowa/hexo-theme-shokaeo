@@ -10,6 +10,7 @@ hexo.extend.generator.register('index', function(locals) {
   const paginationDir = config.pagination_dir || 'page';
   const path = config.index_generator.path || '';
   const categories = locals.categories;
+  console.log(sticky);
   if(posts.length > 0) {
       pages = pagination(path, posts, {
       perPage: config.index_generator.per_page,
