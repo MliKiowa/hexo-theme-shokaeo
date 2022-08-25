@@ -18,3 +18,6 @@ Language:
 暂无
 ## 社区
 暂无
+## 进度
+[`Read`](https://github.com/Mlikiowa/hexo-theme-shokaeo/blob/main/Done.md)
+
