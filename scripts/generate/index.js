@@ -35,4 +35,4 @@ hexo.extend.generator.register('index', function(locals) {
   }
   return [...covers, ...pages]; 
 
-}
+});
