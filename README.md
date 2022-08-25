@@ -1,7 +1,7 @@
 # hexo-theme-shokaeo
 Language: 
 **`简体中文`** 
-[`English`](https://github.com/Mlikiowa/GithubFile/blob/main/README_EN.md)
+[`English`](https://github.com/Mlikiowa/hexo-theme-shokaeo/blob/main/README_EN.md)
 
 
 [![](https://img.shields.io/github/license/MliKiowa/hexo-theme-shokaeo?style=flat-square)](https://github.com/MliKiowa/hexo-theme-shokaeo/blob/main/LICENSE)
