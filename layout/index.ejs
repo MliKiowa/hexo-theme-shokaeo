@@ -1,11 +1,13 @@
-<div class="index wrap">
-     <% if (page.current == 1){ %>
-      <% console.log(page.sticky); if(page.sticky.length > 0){ %>
-      <h2 class="divider"><%- __('index.sticky'); %></h2>
-      <% var sticky = page.sticky.toArray(); %>
-      <div class="segments sticky">
-        <% for (post in sticky) %>
-          <%- segment.render(post); %>
-        <% } %>
+<% if(is_home() || is_category() || is_archive() || is_tag()) {
+  var isPostList = true;
+} else {
+  var isPostList = false;
+} %>
+<h2 class="divider"><%- __('index.sticky'); %></h2>
+<div class="segments sticky">
+   <% if(theme.top_post && isPostList && post.top == true){ %>
+      <div class="metatag top">
+        <i class="<%- theme.top_post.icon %> fa-fw" aria-hidden="true"></i>&nbsp;<%- theme.top_post.text %>
       </div>
-      <% } %>
+    <% } %>
+</div>
