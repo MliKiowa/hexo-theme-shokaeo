@@ -2,7 +2,7 @@
      <% if (page.current == 1) %>
       <% if(page.sticky.length > 0) %>
       <h2 class="divider"><%- __('index.sticky') %></h2>
-      <%- set sticky = page.sticky.toArray() %>
+      <%- var sticky = page.sticky.toArray() %>
       <div class="segments sticky">
         <% for (post in sticky) %>
           <%- segment.render(post) %>
@@ -19,8 +19,8 @@
       </div>
       <% } %>
     {%- if page.posts.length > 0%}
-    <%- set posts = page.posts.toArray() %>
-    <%- if page.current == 1 %>
+    <%- var posts = page.posts.toArray() %>
+    <%- if (page.current == 1) %>
     <h2 class="divider"><%- __('index.posts') %></h2>    
     <div class="segments posts">
       <% for(post in posts) %>
