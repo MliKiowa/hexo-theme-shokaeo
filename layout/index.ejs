@@ -13,8 +13,8 @@
       <%- if(page.catlist.length > 0) %>
       <h2 class="divider">{{ __('index.category') }}</h2>
       <div class="cards">
-        <% for(cat in page.catlist %}
-          {{ card.render(cat) }}
+        <% for (cat in page.catlist) %}
+          <%- card.render(cat) %>
         <% } %>
       </div>
       <% } %>
@@ -24,7 +24,7 @@
     <h2 class="divider"><%- __('index.posts') %></h2>    
     <div class="segments posts">
       <% for(post in posts) %>
-        {{ segment.render(post) }}
+        <%- segment.render(post) %>
       <% } %>
     </div>
   </div>
