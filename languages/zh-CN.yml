@@ -65,4 +65,79 @@ counter:
   index:
     post: "%d 篇文章"
     category:  "%d 个子项，"
-  tag_clou
+  tag_cloud:
+    zero: 暂无标签
+    one: 目前共计 1 个标签
+    other: "目前共计 %d 个标签"
+  categories:
+    zero: 暂无分类
+    one: 目前共计 1 个分类
+    other: "目前共计 %d 个分类"
+  archive_posts:
+    zero: 暂无文章。
+    one: 目前共计 1 篇文章。
+    other: "目前共计 %d 篇文章。"
+
+state:
+  posts: 文章
+  tags: 标签
+  categories: 分类
+
+search:
+  placeholder: 文章搜索
+  empty: "关于 「 ${query} 」，什么也没搜到"
+  stats: "${time} ms 内找到 ${hits} 条结果"
+
+cheers:
+  um: 嗯..
+  ok: 还行
+  nice: 不错
+  good: 很好
+  great: 非常好
+  excellent: 太棒了
+
+keep_on: 继续努力。
+
+symbol:
+  comma: "，"
+  period: "。"
+  colon: "："
+  year: 年
+  month: 月
+
+reward:
+  donate: 赞赏
+  text: 请我喝[茶]~(￣▽￣)~*
+  wechatpay: 微信支付
+  alipay: 支付宝
+  paypal: 贝宝
+  bitcoin: 比特币
+
+follow_me:
+  welcome: 欢迎关注我的其它发布渠道
+
+accessibility:
+  nav_toggle: 切换导航栏
+  prev_page: 上一页
+  next_page: 下一页
+
+symbols_count_time:
+  count: 本文字数
+  count_total: 站点总字数
+  time: 阅读时长
+  time_total: 站点阅读时长
+  time_minutes: 分钟
+  word: 字
+  view: 次
+
+tips:
+  copyright: "复制成功，转载请遵守 %s 协议。"
+  nocopy: "复制失败，本页内容禁止转载！"
+
+quiz:
+  choice: 单选题
+  multiple: 多选题
+  true_false: 判断题
+  essay: 问答题
+  gap_fill: 填空题
+  mistake: 错题备注
