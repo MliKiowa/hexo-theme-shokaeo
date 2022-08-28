@@ -2,31 +2,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#FFF">
 <%_ if(theme.favicon.apple_touch_icon){ _%>
-  <link rel="apple-touch-icon" sizes="180x180" href="<%- url_for(theme.statics +  theme.images + theme.favicon.apple_touch_icon) %>">
+<link rel="apple-touch-icon" sizes="180x180" href="<%- url_for(theme.statics +  theme.images + theme.favicon.apple_touch_icon) %>">
 <%_ } _%>
 <link rel="icon" type="image/ico" sizes="32x32" href="<%- url_for(theme.statics +  theme.images + '/favicon.ico') %>">
 <%_ if(theme.favicon.android_manifest){ _%>
-  <link rel="manifest" href="<%- url_for(theme.statics + theme.images + theme.favicon.android_manifest) %>">
+<link rel="manifest" href="<%- url_for(theme.statics + theme.images + theme.favicon.android_manifest) %>">
 <%_ } _%>
 <%_ if(theme.favicon.ms_browserconfig){ _%>
   <meta name="msapplication-config" content="<%- url_for(theme.statics + theme.images + theme.favicon.ms_browserconfig) %>">
 <%_ } _%>
 
 <%_ if(theme.disable_baidu_transformation){ _%>
-  <meta http-equiv="Cache-Control" content="no-transform">
-  <meta http-equiv="Cache-Control" content="no-siteapp">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
 <%_ } _%>
 <%_ if(theme.google_site_verification){ _%>
-  <meta name="google-site-verification" content="<%- theme.google_site_verification %>">
+<meta name="google-site-verification" content="<%- theme.google_site_verification %>">
 <%_ } _%>
 <%_ if(theme.bing_site_verification){ _%>
-  <meta name="msvalidate.01" content="<%- theme.bing_site_verification %>">
+<meta name="msvalidate.01" content="<%- theme.bing_site_verification %>">
 <%_ } _%>
 <%_ if(theme.yandex_site_verification){ _%>
-  <meta name="yandex-verification" content="<%- theme.yandex_site_verification %>">
+<meta name="yandex-verification" content="<%- theme.yandex_site_verification %>">
 <%_ } _%>
 <%_ if(theme.baidu_site_verification){ _%>
-  <meta name="baidu-site-verification" content="<%- theme.baidu_site_verification %>">
+<meta name="baidu-site-verification" content="<%- theme.baidu_site_verification %>">
 <%_ } _%>
 
 <link rel="alternate" type="application/rss+xml" title="<%- config.title %>" href="<%- full_url_for('/rss.xml') %>" />
