@@ -1,2 +1,4 @@
 ### Shokaeo Debug Config
 debug: true
+favicon:
+  apple_touch_icon: /apple-touch-icon.png
