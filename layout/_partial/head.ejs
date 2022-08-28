@@ -11,7 +11,6 @@
 <%_ if(theme.favicon.ms_browserconfig){ _%>
   <meta name="msapplication-config" content="<%- url_for(theme.statics + theme.images + theme.favicon.ms_browserconfig) %>">
 <%_ } _%>
-
 <%_ if(theme.disable_baidu_transformation){ _%>
 <meta http-equiv="Cache-Control" content="no-transform">
 <meta http-equiv="Cache-Control" content="no-siteapp">
@@ -28,7 +27,6 @@
 <%_ if(theme.baidu_site_verification){ _%>
 <meta name="baidu-site-verification" content="<%- theme.baidu_site_verification %>">
 <%_ } _%>
-
 <link rel="alternate" type="application/rss+xml" title="<%- config.title %>" href="<%- full_url_for('/rss.xml') %>" />
 <link rel="alternate" type="application/atom+xml" title="<%- config.title %>" href="<%- full_url_for('/atom.xml') %>" />
 <link rel="alternate" type="application/json" title="<%- config.title %>" href="<%- full_url_for('/feed.json') %>" />
